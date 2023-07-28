@@ -14,4 +14,4 @@ def cnh_category(rodas, peso=0, pessoas=0):
         return print("Erro de entrada de dados")
 
 
-cnh_category(2, 5600, 8)
+cnh_category(4, 4000, 7)
