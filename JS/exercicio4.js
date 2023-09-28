@@ -15,3 +15,5 @@ function verifica(array) {
 }
 
 verifica(numerosDaSorte)
+
+const teste = function(a) {}
