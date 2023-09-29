@@ -8,11 +8,17 @@ connect();
 connect();
 
 
-let h1 = document.getElementById('titulo');
-let ol = document.getElementById('lista-ordenada');
-let ul = document.getElementsByTagName('ul');
-let a = document.getElementsByTagName('a');
+const h1 = document.getElementById('titulo');
+const ol = document.getElementById('lista-ordenada');
+const ul = document.getElementsByTagName('ul');
+const a = document.getElementsByTagName('a');
 
+// --exercicio de add pelo dom--
+const body = document.getElementsByTagName('body')
+const newTitle = document.createElement('h1')
+newTitle.innerText = 'fui add pelo DOM'
+body[0].appendChild(newTitle)
+// --------------------
 h1.innerText = 'deu certo'
 a[0].innerText = 'esse link vai pro course'
 ol.innerHTML = `
