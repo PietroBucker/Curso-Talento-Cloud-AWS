@@ -14,11 +14,12 @@ const ul = document.getElementsByTagName('ul');
 const a = document.getElementsByTagName('a');
 
 // --exercicio de add pelo dom--
-const body = document.getElementsByTagName('body')
+const body = document.body;
 const newTitle = document.createElement('h1')
 newTitle.innerText = 'fui add pelo DOM'
-body[0].appendChild(newTitle)
+body.appendChild(newTitle)
 // --------------------
+
 h1.innerText = 'deu certo'
 a[0].innerText = 'esse link vai pro course'
 ol.innerHTML = `
